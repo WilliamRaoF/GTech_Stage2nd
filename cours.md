@@ -1,4 +1,4 @@
-# Cours Complet sur Scratch
+# Cours sur Scratch
 
 ## Introduction
 

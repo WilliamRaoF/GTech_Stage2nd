@@ -11,12 +11,7 @@ Imaginer et choisir un concept de jeu réalisable en une semaine, en s’appuyan
 
 ---
 
-## ⏱️ Durée conseillée
 
-**1h à 1h30**  
-(avec une pause à mi-chemin pour partager les premières idées à voix haute)
-
----
 
 ## 🗂️ Déroulé
 

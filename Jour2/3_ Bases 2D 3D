@@ -1,0 +1,102 @@
+# 🎨 Bases du graphisme 2D / 3D dans le jeu vidéo
+
+## 🎯 Objectif pédagogique  
+Comprendre les différences fondamentales entre le graphisme 2D et 3D dans le jeu vidéo. Identifier les styles graphiques simples et efficaces pour des jeux accessibles, lisibles et réalisables avec peu de moyens.
+
+---
+
+## 🧭 Pourquoi ce cours ?
+
+Même sans être graphiste, un développeur ou un game designer doit :
+- Comprendre les **types d’assets** visuels existants
+- Savoir **choisir un style adapté** à son jeu et à ses contraintes
+- Pouvoir **travailler avec des artistes** ou **utiliser des assets libres intelligemment**
+
+---
+
+## 🧾 2D vs 3D : quelles différences ?
+
+| Critère               | 2D                                 | 3D                                |
+|-----------------------|-------------------------------------|------------------------------------|
+| Dimension             | Images plates                      | Objets en volume                  |
+| Visuels               | Sprites, tilesets                  | Meshes, textures, matériaux       |
+| Points forts          | Simplicité, rapidité, lisibilité   | Profondeur, animation libre       |
+| Outils typiques       | Photoshop, GIMP, Aseprite, Krita   | Blender, Maya, 3ds Max            |
+| Exemples de jeux      | Celeste, Dead Cells, Hollow Knight | Minecraft, Fortnite, Super Mario 64 |
+
+---
+
+## 🎨 Quelques styles graphiques simples & efficaces
+
+### 1. **Pixel art**
+- Très populaire en indé
+- Peu gourmand en ressources
+- Demande de la rigueur dans la composition
+
+🎮 Ex : Stardew Valley, Dead Cells
+
+---
+
+### 2. **Flat Design / Minimaliste**
+- Utilisation de formes simples, aplats de couleur
+- Parfait pour des jeux rapides à produire
+
+🎮 Ex : Thomas Was Alone, Duet
+
+---
+
+### 3. **Low Poly 3D**
+- Modélisation simplifiée
+- Peu de détails, mais lisible et esthétique
+
+🎮 Ex : Totally Accurate Battle Simulator, Poly Bridge
+
+---
+
+### 4. **Cartoon / Outline**
+- Formes simples avec contours noirs
+- Très lisible à distance
+- Stylisé et agréable à animer
+
+🎮 Ex : Wind Waker, Borderlands
+
+---
+
+## 🧠 Quelques notions clés
+
+| Notion              | Explication simple                                   |
+|---------------------|------------------------------------------------------|
+| Silhouette          | Forme globale reconnaissable                         |
+| Contraste           | Différence claire entre objets et arrière-plan       |
+| Palette limitée     | 3 à 5 couleurs dominantes suffisent souvent          |
+| Feedback visuel     | Animation ou changement quand on interagit           |
+| Lisibilité en mouvement | Le joueur comprend tout même quand ça bouge vite |
+
+---
+
+## 🛠️ Bonnes pratiques pour un projet débutant
+
+✅ Choisir un style simple à produire  
+✅ Ne pas surcharger la scène de détails  
+✅ Tester les assets sur fond clair ou foncé  
+✅ Toujours penser "lisibilité avant réalisme"  
+✅ Réutiliser des éléments quand c’est possible
+
+---
+
+## ✅ Résultat attendu en fin de session
+
+| Élément                            | Objectif                         |
+|------------------------------------|----------------------------------|
+| Choix d’un style graphique adapté  | Cohérent avec gameplay & temps   |
+| Compréhension des formats visuels  | PNG, FBX, sprites, meshes         |
+| Orientation du projet validée      | 2D, 3D, ou mix simple à gérer     |
+
+---
+
+## 💬 À retenir
+
+> « Dans un jeu vidéo, la **forme** doit toujours **servir la fonction**. »
+>  
+> « Un style simple bien maîtrisé vaut mieux qu’un style réaliste bâclé. »
+

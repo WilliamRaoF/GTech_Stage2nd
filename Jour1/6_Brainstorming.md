@@ -20,7 +20,7 @@ Imaginer et choisir un concept de jeu réalisable en une semaine, en s’appuyan
 
 ## 🗂️ Déroulé
 
-### 1. 📚 Rappel des contraintes de projet (10 min)
+### 1. 📚 Rappel des contraintes de projet
 
 - **Équipe** : binôme ou groupe de 3 maximum
 - **Outils** : Unreal Engine, uniquement en Blueprint
@@ -29,7 +29,7 @@ Imaginer et choisir un concept de jeu réalisable en une semaine, en s’appuyan
   - Top Down
   - First Person
 
-### 2. 💬 Tempête d'idées (30 à 45 min)
+### 2. 💬 Tempête d'idées 
 
 Chaque groupe discute librement. Le but est de produire **beaucoup d’idées**, même folles ou farfelues !
 
@@ -44,7 +44,7 @@ Chaque groupe discute librement. Le but est de produire **beaucoup d’idées**,
 - Une référence ou un croisement de jeux connus ?
 - Un univers marquant ou drôle ?
 
-### 3. ✅ Sélection du concept (10 à 15 min)
+### 3. ✅ Sélection du concept 
 
 Chaque groupe choisit **1 idée principale** :
 - Réalisable en 4 jours
@@ -62,7 +62,7 @@ Ils notent ensuite les grandes lignes dans un mini-tableau :
 | Objectif      |                |
 | Template utilisé |            |
 
-### 4. 📣 Présentation express (2 min par groupe)
+### 4. 📣 Présentation express 
 
 Chaque groupe présente son concept à voix haute devant les autres.  
 L’intervenant peut valider ou proposer des ajustements mineurs si :

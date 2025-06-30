@@ -1,0 +1,95 @@
+# 🏞️ Design des éléments du décor
+
+## 🎯 Objectif pédagogique  
+Découvrir comment concevoir un décor de jeu vidéo fonctionnel et stylisé. Créer un **élément de décor interactif** pour le jeu de chaque groupe.
+
+---
+
+## 🧩 À quoi sert le décor dans un jeu vidéo ?
+
+Le décor :
+- Crée une **ambiance visuelle** (univers, époque, style)
+- Sert **le gameplay** (plateformes, obstacles, cachettes…)
+- Aide à la **navigation** du joueur (repérage, orientation)
+- Peut être **interactif** (portes, leviers, plateformes mobiles…)
+
+---
+
+## 🧱 Types d’éléments de décor
+
+| Type           | Description                          | Exemples                         |
+|----------------|--------------------------------------|----------------------------------|
+| **Tileset**    | Sol, mur, plafond découpés en blocs  | Dalles, briques, terre           |
+| **Background** | Image de fond ou décor lointain      | Montagnes, ciel, ville           |
+| **Props**      | Objets posés, parfois interactifs    | Barils, arbres, panneaux         |
+| **Interactifs**| Le joueur peut les activer / éviter  | Portes, pièges, ascenseurs       |
+
+---
+
+## 🧠 Ce qui fait un bon élément de décor
+
+- **Lisibilité** : forme et fonction compréhensibles instantanément
+- **Style cohérent** : avec les autres éléments visuels du jeu
+- **Utilité gameplay** : plateforme, blocage, repère, défi…
+- **Contraste** : se distingue bien du fond ou des autres objets
+
+---
+
+## 🎮 Exemples visuels (à projeter si possible)
+
+- *Celeste* : plateformes claires et gameplay lisible
+- *Super Mario World* : briques, tuyaux, pièces très lisibles
+- *Hollow Knight* : décors stylisés + éléments interactifs identifiables
+
+---
+
+## 🎨 Mini Atelier
+
+### Objectif : créer **1 élément de décor interactif** propre au jeu du groupe
+
+Chaque groupe choisit un **élément clé** de leur gameplay parmi :
+- Plateforme mouvante
+- Bloc destructible
+- Porte à ouvrir
+- Élément piquant ou dangereux
+- Objet qui donne un pouvoir ou déclenche une action
+
+### Étapes :
+1. ✏️ Esquisse rapide (papier ou numérique)
+2. 🎨 Choix de couleurs / formes dominantes
+3. 🧩 Réflexion sur son rôle dans le jeu
+
+### Questions à se poser :
+- Le joueur **peut-il l’identifier facilement** ?
+- Cet élément **a-t-il une fonction claire** ?
+- Est-il **visible sans confusion** dans le décor général ?
+
+---
+
+## 🧰 Outils possibles
+
+- Papier / feutres
+- Photopea, Paint, Figma, Krita…
+- Assets pack (Kenney, OpenGameArt…) pour s’inspirer
+
+---
+
+## ✅ Résultat attendu en fin de séance
+
+| Élément                              | Description                          |
+|--------------------------------------|--------------------------------------|
+| Croquis d’un élément de décor        | Unique par groupe                    |
+| Fonction de gameplay définie         | Interactif, utile, lisible           |
+| Style cohérent avec le projet        | Couleurs / formes justifiées         |
+| Exportable ou prêt à modéliser       | Base pour passage dans Blender ou Unreal |
+
+---
+
+## 💬 À retenir
+
+> « Chaque objet du décor doit **avoir une fonction** ou **raconter quelque chose**. »
+>  
+> « Même un simple cube peut devenir fun s’il est bien intégré dans le gameplay. »
+
+---
+

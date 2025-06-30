@@ -1,0 +1,136 @@
+# 🧊 Cours d’introduction à Blender
+
+## 🎯 Objectif pédagogique  
+Découvrir Blender, apprendre à créer un **modèle 3D simple**, le texturer avec des **couleurs de matériaux** et l’exporter au format `.FBX` pour Unreal Engine.
+
+---
+
+## 🛠️ Qu’est-ce que Blender ?
+
+Blender est un logiciel libre et gratuit de création 3D.  
+Il permet de :
+- Modéliser des objets (formes, personnages, décors…)
+- Appliquer des couleurs ou textures
+- Animer, sculpter, simuler
+- Exporter vers Unity, Unreal, Godot, etc.
+
+🌐 Téléchargement : https://www.blender.org
+
+---
+
+## 🧭 Interface de Blender
+
+### 📌 Les zones principales :
+- **Viewport** : l’espace 3D où tu travailles
+- **Toolbar (gauche)** : outils de transformation
+- **Outliner (haut à droite)** : liste des objets
+- **Properties (en bas à droite)** : matériaux, modifiers, export…
+
+### 🎥 Navigation dans la vue 3D :
+| Action                   | Raccourci Souris | Clavier (alternative) |
+|--------------------------|------------------|------------------------|
+| Tourner la vue           | Molette + clic   | Numpad 4/6/8/2         |
+| Zoomer                   | Molette avant/arrière | `Ctrl` + clic droit    |
+| Déplacer la vue          | Maj + Molette    | `Shift` + clic droit   |
+| Vue de face              | `1` (Numpad)     | `Alt` + `1`            |
+| Vue de dessus            | `7` (Numpad)     | `Alt` + `7`            |
+| Vue en perspective/ortho| `5` (Numpad)     |                        |
+
+---
+
+## 🧱 Modélisation simple
+
+### 🧊 Ajouter un objet de base :
+- `Shift + A` → Mesh → Cube, Cylinder, Plane, etc.
+
+### ✏️ Passer en mode édition :
+- Touche `Tab` → Edit Mode
+
+### 🧰 Outils de base :
+| Action                  | Raccourci | Description                         |
+|-------------------------|-----------|-------------------------------------|
+| Sélectionner un point   | `Clique droit` | Vertex/Edge/Face                  |
+| Déplacer                | `G`       | Grab (bouger)                        |
+| Tourner                 | `R`       | Rotate                               |
+| Redimensionner          | `S`       | Scale                                |
+| Extruder                | `E`       | Étendre une face                     |
+| Annuler                 | `Ctrl + Z`| Undo                                 |
+
+### 🔁 Astuce :
+- `Ctrl + A` → Apply → All Transforms (important pour export)
+
+---
+
+## 🎨 Créer un matériau simple
+
+1. Sélectionner l’objet
+2. Onglet **Material Properties** (boule rouge)
+3. Cliquer sur **New**
+4. Nommer et choisir une **Base Color**
+5. (Facultatif) Ajouter d’autres matériaux à des faces spécifiques
+
+---
+
+## 🎁 Exporter un modèle vers Unreal
+
+1. Sélectionner l’objet
+2. Menu **File > Export > FBX**
+3. Options importantes :
+   - **Limit to → Selected Objects** : ✅
+   - **Apply Transform** : ✅
+   - **Path Mode → Copy** : si textures
+4. Choisir un nom clair (`crate.fbx`, `spike.fbx`) et enregistrer
+
+🧠 Ne pas oublier d’appliquer les transformations (`Ctrl + A`) avant export !
+
+---
+
+## 💡 Astuces pour débutants
+
+- Travailler avec des **formes simples**
+- Utiliser des **coupes droites**, éviter trop de détails
+- Ne pas utiliser de textures au début : juste **matériaux + couleurs**
+- Toujours nommer correctement vos objets et fichiers
+
+---
+
+## 🧪 Mini-exercice à faire
+
+🎯 Créer un objet simple (au choix) :
+- Une caisse
+- Un arbre low poly
+- Un piège (pics, scie, etc.)
+- Un objet interactif (levier, interrupteur…)
+
+🗂️ Exporter en `.FBX`  
+📁 Placer dans un dossier `Assets/3D/`
+
+---
+
+## ✅ Résultat attendu
+
+| Objectif                        | État attendu                         |
+|----------------------------------|--------------------------------------|
+| Objet simple modélisé           | Forme propre, pas de trous ou bugs   |
+| Matériau appliqué               | Couleur visible                      |
+| Export propre en `.FBX`         | Nom clair, bien placé                |
+| Prêt à importer dans Unreal     | Testable dès l’après-midi            |
+
+---
+
+## 🧰 Ressources utiles
+
+- 📺 Tutoriel vidéo débutant : [Blender Beginner Tutorial](https://youtu.be/TPrnSACiTJ4)
+- 📘 Guide rapide français : https://openclassrooms.com/fr/courses/3244401-modelez-en-3d-avec-blender
+- 📁 Packs 3D libres :  
+  - https://quaternius.com  
+  - https://kenney.nl/assets
+
+---
+
+## 💬 À retenir
+
+> « Un bon asset 3D, c’est : une forme claire, une couleur bien choisie, un export propre. »
+
+> « Pas besoin d’être artiste : l’important, c’est que ça marche dans le jeu ! »
+

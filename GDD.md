@@ -1,129 +1,131 @@
-## 🎮 **Cours : Comment faire un Document de Game Design (GDD)**
+# 📘 Introduction au GDD – Game Design Document
+
+## 🎯 Objectif du cours
+
+Comprendre à quoi sert un **GDD (Game Design Document)**, comment le structurer, et pourquoi c’est un outil indispensable même pour un petit projet de stage ou de prototype.
 
 ---
 
-### 🧩 **1. Qu’est-ce qu’un Game Design Document ?**
+## 📖 Qu’est-ce qu’un GDD ?
 
-Un **Game Design Document (GDD)** est un document de référence qui décrit **toutes les mécaniques, les règles, les systèmes et les intentions** du jeu vidéo. Il sert à guider toute l’équipe de développement (game designers, programmeurs, graphistes, musiciens, etc.).
+Le **Game Design Document (GDD)** est un **document de référence** qui décrit :
+- L’univers du jeu
+- Les mécaniques et les règles
+- Les personnages, niveaux, objectifs
+- Les éléments visuels et sonores
+- Le plan de production
 
----
+### 🎮 Pourquoi créer un GDD ?
 
-### 📑 **2. Objectifs d’un GDD**
+✅ Pour **formaliser l’idée** du jeu  
+✅ Pour **partager une vision commune** avec une équipe  
+✅ Pour **ne rien oublier** pendant la production  
+✅ Pour **rester cohérent** à chaque étape
 
-* Partager **une vision claire et cohérente** du jeu.
-* Fournir un **cadre de travail** pour tous les membres de l'équipe.
-* Permettre une **organisation du travail** et du développement par étapes.
-* Servir de **document vivant**, mis à jour en fonction de l’évolution du projet.
-
----
-
-### 🏗️ **3. Structure type d’un Game Design Document**
-
-Voici les sections essentielles d’un GDD :
-
----
-
-#### **1. Présentation Générale**
-
-* **Nom du jeu**
-* **Pitch** (résumé en 2-3 phrases du concept du jeu)
-* **Genre** (plateforme, RPG, FPS, etc.)
-* **Public cible**
-* **Plateformes** (PC, mobile, console, etc.)
-* **USP (Unique Selling Points)** – Ce qui rend le jeu unique
+> 💡 Un bon GDD permet de transformer une idée floue en un projet réalisable.
 
 ---
 
-#### **2. Univers et Histoire**
+## 🗂️ Structure type d’un GDD
 
-* **Synopsis** (résumé de l’histoire principale)
-* **Contexte / Lore**
-* **Personnages principaux**
-* **Factions, lieux clés, objets narratifs**
+Voici un modèle simple adapté à un stage ou à un petit prototype Unreal Engine en Blueprint.
 
----
+### 1. 🎯 Présentation du jeu
 
-#### **3. Gameplay**
+- **Nom du jeu** : *Nom temporaire ou définitif*
+- **Pitch** : *Résumé en 1 phrase*
+- **Genre** : *Plateforme, puzzle, action, etc.*
+- **Public visé** : *Enfants, ados, joueurs occasionnels, etc.*
+- **Objectif du joueur** : *Que doit-il accomplir ?*
 
-* **Boucle de gameplay principale** (ex : "explorer → combattre → looter → améliorer")
-* **Mécaniques de jeu principales** : sauter, tirer, courir, résoudre des énigmes, etc.
-* **Objectifs du joueur**
-* **Progression** : niveaux, missions, quêtes
-* **Difficulté et équilibrage**
+### 2. 🧠 Concept & univers
 
----
+- **Histoire ou contexte** *(même très simple)*  
+- **Ambiance** : *Funny ? Dramatique ? Détendue ?*  
+- **Références inspirantes** : *Jeux connus, films, livres…*
 
-#### **4. Contrôles et Interface**
+### 3. ⚙️ Gameplay & mécaniques
 
-* **Schéma de contrôle** (clavier/souris ou manette)
-* **HUD/UI (Interface utilisateur)** : barre de vie, mini-carte, inventaire
+- **Mouvements** : *Se déplacer, sauter, courir, etc.*  
+- **Actions principales** : *Attraper, interagir, tirer…*  
+- **Objectifs dans chaque niveau / mission**  
+- **Progression** : *1 niveau, plusieurs ? difficulté croissante ?*
 
----
+### 4. 📏 Règles du jeu
 
-#### **5. Systèmes de jeu**
+- **Ce qui est permis / interdit**  
+- **Conditions de victoire**  
+- **Conditions d’échec**  
+- **Gestion du temps, de la vie, des points ?**
 
-* **Combat** : corps à corps, à distance, système de visée
-* **Économie** : or, ressources, crafting
-* **Système de points/XP** : niveau du joueur, compétences à débloquer
-* **IA (si pertinente)** : ennemis, alliés
+### 5. 🧱 Level design (structure des niveaux)
 
----
+- Nombre et type de niveaux
+- Éléments interactifs dans le décor
+- Pièges, ennemis, puzzles ?
+- Courbe de difficulté
 
-#### **6. Direction artistique**
+### 6. 🖼️ Direction artistique
 
-* **Style graphique** : pixel art, cartoon, réaliste
-* **Palette de couleurs**
-* **Références visuelles**
-* **Moodboards** (images d’inspiration)
+- Style visuel : *réaliste, cartoon, pixel art, low poly…*  
+- Palette de couleurs dominante  
+- Types d’animations prévues
 
----
+### 7. 🔊 Audio
 
-#### **7. Audio**
+- Ambiances sonores
+- Musiques de fond
+- Bruitages pour les actions principales
 
-* **Ambiance sonore**
-* **Musique**
-* **Effets sonores**
-* **Voix off (si présentes)**
+### 8. 🛠️ Outils & contraintes
 
----
-
-#### **8. Technologies utilisées**
-
-* **Moteur de jeu** : Unity, Unreal Engine, Godot…
-* **Outils complémentaires** : Blender, FMOD, Photoshop, etc.
-* **Systèmes de versioning** : Git, Perforce…
-
----
-
-#### **9. Plan de production**
-
-* **Roadmap** (jalons / dates clés)
-* **Tâches par équipe**
-* **Livrables**
-* **Versioning et playtests**
+- **Moteur utilisé** : Unreal Engine (Blueprint uniquement)
+- **Templates de départ** : 3rd person, FPS, Top Down ?
+- **Ressources** : Free assets, Megascans, sons libres de droit
+- **Durée du projet** : 5 jours
 
 ---
 
-#### **10. Annexe**
+## 🧾 Le One Page GDD
 
-* Croquis, wireframes, tableaux d’équilibrage, diagrammes de progression, etc.
+Le **One Page GDD** est une version **ultra condensée** du GDD : 1 seule page pour présenter toute l’idée.
+
+### 🎯 Objectif :
+- **Clarté** : tout tient sur une page = meilleure communication
+- **Rapidité** : idéal pour des prototypes ou des jeux de jam
+- **Synthèse** : aller à l’essentiel sans s’enliser
+
+### 📌 Structure type d’un One Page GDD :
+
+| Élément           | Exemple ou contenu                                      |
+|-------------------|----------------------------------------------------------|
+| **Titre**          | "Dash & Gravity"                                        |
+| **Pitch**          | Un jeu de plateforme où l'on contrôle la gravité pour franchir des obstacles |
+| **Genre**          | Plateforme / Puzzle                                     |
+| **Public cible**   | Joueurs occasionnels / 10–18 ans                        |
+| **Objectif joueur**| Atteindre la sortie de chaque niveau                   |
+| **Mécaniques clés**| Saut / Changer la gravité / Dash                       |
+| **Règles**         | Tomber dans le vide = Game Over, gravité limitée à 3 utilisations |
+| **Références**     | Celeste, VVVVVV, Gravity Rush                           |
+| **Style visuel**   | Low-poly coloré, ambiance spatiale                     |
+| **Plateforme**     | PC / Unreal Engine blueprint                           |
+
+> 💡 On peut aussi représenter le One Page GDD sous forme de **fiche visuelle**, avec des blocs, pictos ou mockups.
 
 ---
 
-### 🛠️ **4. Outils recommandés**
+## 🧠 À retenir
 
-* **Google Docs / Notion / Confluence** pour la rédaction collaborative
-* **Trello / ClickUp / Jira** pour la gestion de projet
-* **Figma / Miro** pour l’interface et les schémas
-* **Excel / Google Sheets** pour l’équilibrage (stats, courbes de progression)
+> Un GDD = **La carte de ton jeu.**  
+> Sans carte → on tourne en rond.  
+> Avec carte → on avance ensemble.  
+> En cas de doute : commence par un **One Page GDD**.
 
 ---
 
-### ✅ **5. Conseils Pratiques**
+## 📚 Pour aller plus loin
 
-* **Soyez clair et synthétique** : allez à l’essentiel, évitez les paragraphes trop longs.
-* **Ajoutez des visuels** dès que possible (croquis, tableaux, schémas).
-* **Testez souvent** : adaptez le GDD en fonction des retours de tests.
-* **Mettez à jour régulièrement** : le GDD est un document vivant.
-* **Travaillez en équipe** : chaque pôle doit pouvoir comprendre et compléter le GDD.
+- [GDD Template par GameDev.tv](https://gamedevacademy.org/free-game-design-document-template/)
+- Exemple de One Page GDD : [Exemple Celeste](https://twitter.com/mattmakesgames)
+- Articles : “How to Make a Great One Page GDD” – Gamasutra
 
